@@ -115,6 +115,7 @@ bindsym $mod+r mode "resize"
 for_window [class="^.*"] border pixel 1
 
 bar {
+    position top
 	status_command i3status --config ~/.config/i3/i3status.conf
 	font pango:CascadiaCode Mono 10
 }
