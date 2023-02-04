@@ -19,6 +19,7 @@ bindsym $mod+Shift+q kill
 bindsym $mod+b exec google-chrome-stable
 bindsym $mod+t exec alacritty
 bindsym $mod+Shift+s exec pavucontrol
+bindsym $mod+i exec postman
 
 bindsym $mod+d exec --no-startup-id dmenu_run
 bindsym $mod+j focus left
