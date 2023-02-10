@@ -111,8 +111,7 @@ mode "resize" {
         bindsym $mod+r mode "default"
 }
 default_border pixel 0
-hide_edge_borders vertical
-hide_edge_borders horizontal
+hide_edge_borders both
 bindsym $mod+r mode "resize"
 
 for_window [class="^.*"] border pixel 1
