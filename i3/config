@@ -3,7 +3,7 @@ font pongo:JetBrainsMono 8
 exec --no-startup-id dex --autostart --environment i3
 
 exec --no-startup-id setxkbmap -option caps:escape
-exec feh --no-startup-id --bg-scale ~/wallpaper/wallpaperflare.com_wallpaper.jpg
+exec feh --no-startup-id --bg-scale ~/wallpaper/wall.png
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -110,7 +110,9 @@ mode "resize" {
         bindsym Escape mode "default"
         bindsym $mod+r mode "default"
 }
-
+default_border pixel 0
+hide_edge_borders vertical
+hide_edge_borders horizontal
 bindsym $mod+r mode "resize"
 
 for_window [class="^.*"] border pixel 1
@@ -120,5 +122,13 @@ exec_always --no-startup-id picom &
 
 bar {
 	status_command i3status --config ~/.config/i3/i3status.conf
-	font pango:JetBrainsMono 9
+	font pango:JetBrainsMono 10
+    colors {
+            background #191724
+            focused_workspace #31748f #31748f #ffffff
+            active_workspace #6e6a86 #6e6a86 #ffffff
+            inactive_workspace #192724 #191724 #ffffff
+            urgent_workspace   #2f343a #900000 #ffffff
+            binding_mode       #2f343a #900000 #ffffff
+        }
 }
