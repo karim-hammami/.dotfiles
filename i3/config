@@ -1,5 +1,5 @@
 set $mod Mod4
-font pango:monospace 8
+font pongo:JetBrainsMono 8
 exec --no-startup-id dex --autostart --environment i3
 
 exec --no-startup-id setxkbmap -option caps:escape
@@ -119,7 +119,6 @@ exec_always --no-startup-id picom &
 
 
 bar {
-    position top
 	status_command i3status --config ~/.config/i3/i3status.conf
-	font pango:CascadiaCode Mono 10
+	font pango:JetBrainsMono 9
 }

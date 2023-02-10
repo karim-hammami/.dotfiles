@@ -6,3 +6,7 @@ source $ZSH/oh-my-zsh.sh
 alias ls="exa"
 alias vim="nvim"
 alias code="nvim ."
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)

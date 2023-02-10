@@ -1,6 +1,6 @@
 font:
   normal:
-   family: CascadiaCode 
+   family: JetBrainsMono
 # Colors (Dark plus)
 colors:
   primary:
@@ -16,4 +16,3 @@ colors:
     magenta: '0xC586C0'
     cyan:    '0x9CDCFE'
     white:   '0xD4D4D4'
-window.opacity: O.9
