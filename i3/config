@@ -123,7 +123,7 @@ bar {
 	status_command i3status --config ~/.config/i3/i3status.conf
 	font pango:JetBrainsMono 10
     colors {
-            background #191724
+            background #1E1E1E
             focused_workspace #31748f #31748f #ffffff
             active_workspace #6e6a86 #6e6a86 #ffffff
             inactive_workspace #192724 #191724 #ffffff
