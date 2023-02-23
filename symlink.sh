@@ -8,3 +8,4 @@ ln -sf ~/.dotfiles/wallpaper/ ~/
 ln -sf ~/.dotfiles/.zshrc ~/ 
 ln -sf ~/.dotfiles/.bashrc ~/
 ln -sf ~/.dotfiles/picom ~/.config
+ln -sf ~/.dotfiles/.ideavimrc ~/
