@@ -1,0 +1,23 @@
+""" leader key is space
+let mapleader=" "
+
+""" common settings
+set number relativenumber
+set idearefactormode=keep
+
+""" Nerdtree
+set NERDTree
+let g:NERDTreeMapActivateNode='l'
+let g:NERDTreeMapJumpParent='h'
+
+" actions
+nmap <leader>h <action>(PreviousTab)
+nmap <leader>l <action>(NextTab)
+nmap <leader>bd <action>(CloseEditor)
+nmap <leader>i <action>(Generate)
+nmap <leader>m <action>(Git.Menu)
+nmap <leader>s <action>(QuickChangeScheme)
+nmap <leader>/ <action>(ShowErrorDescription)
+nmap <leader>e <action>(GotoNextError)
+nnoremap <leader><leader> <C-Tab>
+
