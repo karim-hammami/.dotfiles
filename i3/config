@@ -120,7 +120,7 @@ exec_always --no-startup-id picom &
 
 
 bar {
-	status_command i3status --config ~/.config/i3/i3status.conf
+	status_command py3status -c ~/.config/i3/i3status.conf
 	font pango:JetBrainsMono 10
     colors {
             background #1E1E1E
